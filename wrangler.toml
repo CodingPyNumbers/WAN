@@ -1,0 +1,8 @@
+name = "wan-ai-worker"
+type = "javascript"
+compatibility_date = "2025-03-25"
+
+[ai]
+bindings = [
+  { name = "WAN_MODEL", model = "./wan-2.1.onnx" } 
+]
