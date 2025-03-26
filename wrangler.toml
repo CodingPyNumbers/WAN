@@ -1,8 +1,12 @@
-name = "wan-ai-worker"
-type = "javascript"
-compatibility_date = "2025-03-25"
-
-[ai]
-bindings = [
-  { name = "WAN_MODEL", model = "./wan-2.1.onnx" } 
-]
+{
+  "compatibility_date": "2024-11-01",
+  "main": "src/index.ts",
+  "name": "WAN",
+  "upload_source_maps": true,
+  "ai": {
+    "binding": "AI"
+  },
+  "observability": {
+    "enabled": true
+  }
+}
